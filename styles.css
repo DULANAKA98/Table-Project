@@ -1,0 +1,45 @@
+/* Table 1 Styles - exact same way as in the PDF */
+#table1 {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+#table1, #table1 th, #table1 td {
+    border: 1px solid black;
+}
+
+#table1 th {
+    text-align: left;
+    padding: 10px;
+}
+
+#table1 td {
+    padding: 10px;
+}
+
+#table1 td:first-child {
+    text-align: left;
+}
+
+#table1 td:last-child {
+    text-align: right;
+}
+
+/* Table 2 Styles */
+#table2 {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+#table2, #table2 th, #table2 td {
+    border: 1px solid black;
+}
+
+#table2 th, #table2 td {
+    text-align: center;
+    padding: 10px;
+}
